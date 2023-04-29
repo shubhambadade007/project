@@ -8,6 +8,12 @@ pipeline{
 
             }
         }
+        stage("checkout"){
+            steps{
+                checkout()
+
+            }
+        }
     }
 
 }
